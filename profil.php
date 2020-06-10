@@ -13,6 +13,7 @@ session_start();
 </header>
     <main>
         <?php
+
         if(!empty($_SESSION['login']))
         {
         $login = $_SESSION['login'];
